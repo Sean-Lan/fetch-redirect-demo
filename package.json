@@ -1,12 +1,12 @@
 {
-  "name": "xhr-redirect-demo",
+  "name": "fetch-redirect-demo",
   "version": "1.0.0",
-  "description": "A demo for XHR 302",
+  "description": "A demo for fetch with HTTP 302",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Koa", "Node", "XHR"],
+  "keywords": ["Koa", "Node"],
   "author": "Sean Lan",
   "license": "ISC",
   "dependencies": {
