@@ -7,12 +7,12 @@ const app = new Koa();
 
 const bait = ctx => {
   ctx.response.redirect('/gotcha');
-}
+};
 
 const gotcha = ctx => {
-    ctx.response.type = 'json';
+  ctx.response.type = 'json';
   ctx.response.body = { data: 'Gotcha!' };
-}
+};
 
 app.use(route.get('/gotcha', gotcha));
 app.use(route.get('/bait', bait));
