@@ -12,6 +12,8 @@ Needs node 8+
 
     npm start
 
+Visit: http://localhost:3000/ and check out the network requests.
+
 # License
 
 No license, you can use it anywhere you like.
